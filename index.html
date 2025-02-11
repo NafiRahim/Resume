@@ -30,15 +30,6 @@
         <!-- Ahrefs tag-->
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="bBxcv9+HVeOh2cgc1zvspQ" async></script>
 
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EYS6WY8VC"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-5EYS6WY8VC');
-        </script>
         <!-- Google fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,6 +39,17 @@
             <link rel="stylesheet" href="css/styles.pure.css">
         </noscript>
         <!-- Core theme CSS (includes Bootstrap)-->
+        <style>
+            /* Critical CSS */
+            .hero-text {
+                text-align: justify;
+            }
+            .social-icon {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
         <link rel="canonical" href="https://www.nafirashidrahim.me/">
     </head>
     <body id="page-top">
@@ -126,13 +128,13 @@
                         Ali Ahmed School & College Road · South Goran , Khilgaon - 1219 ·
                         <a href="mailto:nafirahim@outlook.com">nafirahim@outlook.com</a>
                     </div>
-                    <p class="lead mb-5" style="text-align: justify;">Dedicated ACCA student with a strong foundation in business administration and finance. Combining academic excellence with practical skills in data analysis, financial reporting, and modern accounting tools. I am particularly focused on leveraging technology to enhance financial operations, with expertise in Excel, Python, and various accounting software. Seeking opportunities to apply my analytical skills and accounting knowledge in a dynamic professional environment.</p>
+                    <p class="lead mb-5 text-justify hero-text">Dedicated ACCA student with a strong foundation in business administration and finance. Combining academic excellence with practical skills in data analysis, financial reporting, and modern accounting tools. I am particularly focused on leveraging technology to enhance financial operations, with expertise in Excel, Python, and various accounting software. Seeking opportunities to apply my analytical skills and accounting knowledge in a dynamic professional environment.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/nafi-rashid-rahim/" aria-label="Connect with Nafi Rashid on LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
                         <a class="social-icon" href="https://github.com/NafiRahim" aria-label="View Nafi Rashid's GitHub profile">
-                            <i class="fab fa-github"></i>
+                            <i class="fab fa-github" aria-hidden="true"></i>
                         </a>
                         <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> 
                         <a class="social-icon" href="https://instagram.com/nafirashid"><i class="fab fa-instagram"></i></a>
@@ -447,11 +449,21 @@
             </section>
 
             <!-- Add this in the head section of your HTML -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="print" onload="this.media='all'">
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EYS6WY8VC"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5EYS6WY8VC');
+        </script>
+        
     </body>
 </html>
