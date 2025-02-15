@@ -24,7 +24,7 @@ except FileNotFoundError:
 credentials.refresh(Request())
 
 # URL to index
-url_to_index = 'https://www.nafirashidrahim.me/'
+url_to_index = 'https://nafirashidrahim.me/'
 
 # Google Indexing API URL
 api_url = 'https://indexing.googleapis.com/v3/urlNotifications:publish'
